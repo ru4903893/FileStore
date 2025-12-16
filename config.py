@@ -28,7 +28,7 @@ DB_CHANNEL = -1003401371424   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1003401371424": {"name": "Primary DB", "is_primary": True, "is_active": True},
-#     "-1003401371424": {"name": "Secondary DB", "is_primary": False, "is_active": True}
+#     "-1002739310563": {"name": "Secondary DB", "is_primary": True, "is_active": True}
 # }
 # Auto Delete Timer (seconds)
 AUTO_DEL = 1200
