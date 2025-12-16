@@ -14,9 +14,9 @@ SHORT_TUT = "https://t.me/+pOrfRg7ghKA3Nzg8"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "8267376908:AAHcb6rtc3Qytb8DIwvq3nNpB4BvLeB6x6s"
+TOKEN = ""
 API_ID = "26107399"
-API_HASH = "e10525d8ad0189f8bf7a82a32f538d12"
+API_HASH = ""
 WORKERS = 5
 
 DB_URI = "mongodb+srv://mongodb7575:mkCNT8b2LZJX5ekf@cluster0.bcuh8.mongodb.net/filestore?retryWrites=true&w=majority"
