@@ -55,9 +55,9 @@ async def start_command(client: Client, message: Message):
                 client.LOGGER(__name__, client.name).warning(f"Shortener failed: {e}")
                 return await message.reply("Couldn't generate short link.")
 
-            short_photo = client.messages.get("SHORT_PIC", "")
+            short_photo = client.messages.get("SHORT_PIC", "https://files.catbox.moe/ottw7y.jpg")
             short_caption = client.messages.get("SHORT_MSG", "")
-            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/How_to_Download_7x/26")
+            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/+pOrfRg7ghKA3Nzg8")
 
             await client.send_photo(
                 chat_id=message.chat.id,
@@ -69,7 +69,7 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("ᴛᴜᴛᴏʀɪᴀʟ •", url=tutorial_link)
                     ],
                     [
-                        InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/Premium_Fliix/21")
+                        InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/rdxmovie_hd")
                     ]
                 ])
             )
@@ -349,5 +349,5 @@ async def my_plan(client: Client, message: Message):
             "🔸 Plan: Free\n"
             "🔸 Request: Disabled\n\n"
             "🔓 Unlock Premium to get more benefits\n"
-            "Contact: @GetoPro"
+            "Contact: @expartadminbot"
         )
